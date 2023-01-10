@@ -13,12 +13,9 @@ public class votacion {
     private Integer votos;
 
     public votacion() {
+        
     }
 
-    public votacion(String nombre, Integer votos) {
-        this.nombre = nombre;
-        this.votos = votos;
-    }
 
     public String getNombre() {
         return nombre;
